@@ -16,14 +16,22 @@ function App() {
   return (
     <ViewportProvider>
       <div className="App">
-        <Router basename="/">
+        <Router basename="/portfolio">
           <Nav />
           <div className="Content">
             <Switch>
-              <Route exact path="/"><About /></Route>
-              <Route exact path="/contact"><Contact /></Route>
-              <Route exact path="/portfolio"><Portfolio /></Route>
-              <Route path="*"><NotFound /></Route>
+              <Route exact path="/">
+                <About />
+              </Route>
+              <Route exact path="/contact">
+                <Contact />
+              </Route>
+              <Route exact path="/portfolio">
+                <Portfolio />
+              </Route>
+              <Route path="*">
+                <NotFound />
+              </Route>
             </Switch>
           </div>
           <Footer />

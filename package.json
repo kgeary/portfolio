@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kgeary.github.io/portfolio",
+  "homepage": "https://kgeary.github.io/portfolio",
   "dependencies": {
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
@@ -12,7 +12,6 @@
     "@testing-library/user-event": "^10.1.0",
     "aos": "^2.3.4",
     "axios": "^0.19.2",
-    "dotenv": "^8.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
