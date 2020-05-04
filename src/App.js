@@ -8,9 +8,6 @@ import Portfolio from "./pages/Portfolio";
 import NotFound from "./pages/NotFound";
 import { ViewportProvider } from "./hooks/useViewport";
 
-import dotenv from "dotenv";
-dotenv.config();
-
 function App() {
 
   return (
