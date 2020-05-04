@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d604a199c2fd361339b4e35f2e308c5",
+    "revision": "2a8a03d7ffeeb541b74953e73bd35464",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1f6476f22d3ad85fc3a3",
+    "revision": "7707b46cfff0fcfbd2e9",
     "url": "/portfolio/static/css/2.451bf2e4.chunk.css"
   },
   {
-    "revision": "38453c1461024baa12ff",
-    "url": "/portfolio/static/css/main.5125ac44.chunk.css"
+    "revision": "048660b36892b60a8d21",
+    "url": "/portfolio/static/css/main.4d89a4ec.chunk.css"
   },
   {
-    "revision": "1f6476f22d3ad85fc3a3",
-    "url": "/portfolio/static/js/2.c902e9ea.chunk.js"
+    "revision": "7707b46cfff0fcfbd2e9",
+    "url": "/portfolio/static/js/2.82c34086.chunk.js"
   },
   {
     "revision": "7ea21cf83fd98f392cea78cd04e6b0fa",
-    "url": "/portfolio/static/js/2.c902e9ea.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.82c34086.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38453c1461024baa12ff",
-    "url": "/portfolio/static/js/main.73be9fe9.chunk.js"
+    "revision": "048660b36892b60a8d21",
+    "url": "/portfolio/static/js/main.b8080eac.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
@@ -44,10 +44,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fitness-tracker.eac979e3.jpg"
   },
   {
-    "revision": "df7591cfdb40792b837c20c3af22f906",
-    "url": "/portfolio/static/media/handlebars.df7591cf.jpg"
-  },
-  {
     "revision": "0a38c39aa0ba68374b7e7fed8516b76a",
     "url": "/portfolio/static/media/kg-wide.0a38c39a.jpg"
   },
@@ -60,19 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/roster-rocket.0a4294dc.jpg"
   },
   {
-    "revision": "1d954e17647d3898bff627ffbfc24b9a",
-    "url": "/portfolio/static/media/scheduler.1d954e17.jpg"
-  },
-  {
     "revision": "6e776d67f8d3901da6f1d92d0f08ad0e",
     "url": "/portfolio/static/media/showRatings.6e776d67.jpg"
-  },
-  {
-    "revision": "fa5e7c51eb7627bec745292e30e580d1",
-    "url": "/portfolio/static/media/template.fa5e7c51.jpg"
-  },
-  {
-    "revision": "79e84eba3a081378da16ba550790c755",
-    "url": "/portfolio/static/media/weather.79e84eba.jpg"
   }
 ]);
