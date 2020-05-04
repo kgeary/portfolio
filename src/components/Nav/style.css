@@ -34,7 +34,6 @@ nav {
 
 .navLink.active {
   opacity: 1;
-  text-decoration: underline;
 }
 
 .navLink:hover {
@@ -78,8 +77,6 @@ ul.mobileList {
 
 @media screen and (max-width: 700px) {
   .navContainer {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-direction: row-reverse;
   }

@@ -76,7 +76,7 @@ function PortfolioContent(props) {
         />
 
         <Typography
-          variant={"p"}
+          variant={"body1"}
           className="numProjects"
         >
           {getProjectsFound()}
@@ -84,7 +84,7 @@ function PortfolioContent(props) {
       </div>
       {showFilteredProjects()}
       <Fab
-        color="primary"
+        style={{ backgroundColor: "hsl(240, 76%, 13%)", color: "whitesmoke" }}
         size="small"
         aria-label="scroll back to top"
         onClick={() => window.scrollTo(0, 0)}

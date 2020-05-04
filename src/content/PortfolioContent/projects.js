@@ -1,11 +1,11 @@
-//import screenPwGen from "./screens/password.jpg";
-//import screenQuiz from "./screens/quiz.jpg";
-import screenSchedule from "./screens/scheduler.jpg";
-import screenWeather from "./screens/weather.jpg";
+// import screenPwGen from "./screens/password.jpg";
+// import screenQuiz from "./screens/quiz.jpg";
+// import screenSchedule from "./screens/scheduler.jpg";
+// import screenWeather from "./screens/weather.jpg";
+// import screenTemplate from "./screens/template.jpg";
+// import screenHandlebars from "./screens/handlebars.jpg";
 import screenAtxNow from "./screens/atxnow.jpg";
-import screenTemplate from "./screens/template.jpg";
 import screenTracker from "./screens/employee-tracker.jpg";
-import screenHandlebars from "./screens/handlebars.jpg";
 import screenMovieReview from "./screens/movie-review.jpg";
 import screenFitness from "./screens/fitness-tracker.jpg";
 import screenDirectory from "./screens/employee-directory.jpg";
@@ -29,7 +29,6 @@ const projects = [
       img: screenQuiz,
       description: "An interactive quiz application written in Javascript"
     },
-    */
   {
     github: "workday-planner",
     deploy: "https://kgeary.github.io/workday-planner/",
@@ -53,20 +52,21 @@ const projects = [
     img: screenTemplate,
     description: "A homebrewed server side template engine"
   },
+ {
+  github: "express-handlebars",
+  deploy: "https://kgeary.github.io/express-handlebars/",
+  title: "Burger Tracker",
+  tags: "Express, Handlebars, MySQL, Node, ORM, Sequelize",
+  img: screenHandlebars,
+  description: "An application to supoprt CRUD of burger orders. Uses Handlebars for templating and Sequelize ORM."
+},
+  */
   {
     github: "employee-tracker",
     title: "MySQL Employee Tracker",
     tags: "MySQL, Node",
     img: screenTracker,
     description: "Node based employee tracking application. Support CRUD operations and using MySQL backed data."
-  },
-  {
-    github: "express-handlebars",
-    deploy: "https://kgeary.github.io/express-handlebars/",
-    title: "Burger Tracker",
-    tags: "Express, Handlebars, MySQL, Node, ORM, Sequelize",
-    img: screenHandlebars,
-    description: "An application to supoprt CRUD of burger orders. Uses Handlebars for templating and Sequelize ORM."
   },
   {
     github: "fitness-tracker",
@@ -106,7 +106,7 @@ const projects = [
     deploy: "https://roster-rocket.herokuapp.com/",
     tags: "Express, MySQL, Node, React",
     img: screenRoster,
-    description: "Full-stack school registration application. Provides different views and options based on user type (Admin/Parent). Try out the administrator account -- username: blah1@blah.com, password: abcabc"
+    description: "Full-stack school registration application. Provides different views and options based on user type (Admin/Parent). Try out the admin account to see all the view available -- username: blah1@blah.com, password: abcabc"
   },
   {
     github: "show-ratings",

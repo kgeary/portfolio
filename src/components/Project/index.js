@@ -87,23 +87,24 @@ function Project(props) {
         />
       </a>
 
-      <p className="description">
-        <span style={{ fontWeight: "bold", display: "block" }}>
-          Description
+      <div className="projectBody">
+        <p className="description">
+          <span style={{ fontWeight: "bold", display: "block" }}>
+            Description
         </span>
-        <span>
-          {props.description}
-        </span>
-      </p>
+          <span>
+            {props.description}
+          </span>
+        </p>
 
-      <p className="tags">
-        {getTags()}
-      </p>
+        <p className="tags">
+          {getTags()}
+        </p>
 
-      <div className="links">
-        {getLinks()}
+        <div className="links">
+          {getLinks()}
+        </div>
       </div>
-
     </div >
   );
 }
