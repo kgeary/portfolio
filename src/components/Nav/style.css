@@ -3,7 +3,7 @@
 }
 
 .toolbar {
-  background-color: hsl(240, 76%, 13%);
+  background: linear-gradient(to right, hsl(240, 76%, 13%), hsl(240, 76%, 20%));
 }
 
 .navContainer {
