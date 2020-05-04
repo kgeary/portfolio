@@ -16,7 +16,7 @@ function App() {
   return (
     <ViewportProvider>
       <div className="App">
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename="/">
           <Nav />
           <div className="Content">
             <Switch>

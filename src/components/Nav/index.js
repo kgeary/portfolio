@@ -31,7 +31,7 @@ function Nav(props) {
               isLarge
                 ?
                 <nav className="large-screen">
-                  <NavLink to="/" className="navLink" exact activeClassName="active">About</NavLink>
+                  <NavLink exact to="/" className="navLink" activeClassName="active">About</NavLink>
                   <NavLink to="/contact" className="navLink" activeClassName="active">Contact</NavLink>
                   <NavLink to="/portfolio" className="navLink" activeClassName="active">Portfolio</NavLink>
                 </nav>
@@ -43,7 +43,7 @@ function Nav(props) {
                   <Drawer open={isOpen} onClose={toggleDrawer(false)}>
                     <List onClick={toggleDrawer(false)} className="mobileList">
                       <span className="mobileTitle">Navigation</span>
-                      <NavLink to="/" className="mobileLink" exact activeClassName="active">About</NavLink>
+                      <NavLink exact to="/" className="mobileLink" activeClassName="active">About</NavLink>
                       <NavLink to="/contact" className="mobileLink" activeClassName="active">Contact</NavLink>
                       <NavLink to="/portfolio" className="mobileLink" activeClassName="active">Portfolio</NavLink>
                     </List>
