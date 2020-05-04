@@ -8,12 +8,15 @@ import Portfolio from "./pages/Portfolio";
 import NotFound from "./pages/NotFound";
 import { ViewportProvider } from "./hooks/useViewport";
 
+import dotenv from "dotenv";
+dotenv.config();
+
 function App() {
 
   return (
     <ViewportProvider>
       <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Nav />
           <div className="Content">
             <Switch>
