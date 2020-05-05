@@ -11,8 +11,8 @@ I'm a recent graduate of the University of Texas full stack coding bootcamp and
 also received a BSE in Computer Engineering from the University of Michigan.
 
 ## Portfolio
-Check out some of my projects from the bootcamp  
-[Live Site @ Github Pages](https://kgeary.githun.io/portfolio)  
+Check out some of my sample projects   
+[Live Site @ Github Pages](https://kgeary.github.io/portfolio)  
 <img src="screenshot.png" alt="Screenshot of portfolio" width="350px">
 
 Or checkout out the rest of my github account: 
