@@ -13,7 +13,7 @@ function App() {
   return (
     <ViewportProvider>
       <div className="App">
-        <Router basename="/portfolio">
+        <Router basename="/">
           <Nav />
           <div className="Content">
             <Switch>
